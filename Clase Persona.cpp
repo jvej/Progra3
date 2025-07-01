@@ -5,7 +5,7 @@ class Persona {
 private: //Atributos de una persona
 	string nombre;
 	int edad;
-public: //Métodos
+public: //MÃ©todos
 	Persona(string, int); //Constructor
 	void leer();
 	void correr();
@@ -28,11 +28,11 @@ void Persona::correr() {
 int main() {
 
 	Persona p1 = Persona("Juan", 25); //Creamos un objeto de la clase Persona
-	p1.leer(); //Llamamos al método leer del objeto p1
+	p1.leer(); //Llamamos al mÃ©todo leer del objeto p1
 	Persona p2("Maria", 30); //Creamos otro objeto de la clase Persona
-	p2.correr(); //Llamamos al método correr del objeto p2
+	p2.correr(); //Llamamos al mÃ©todo correr del objeto p2
 	Persona p3("Carlos", 20); //Creamos otro objeto de la clase Persona
-	p3.correr(); //Llamamos al método correr del objeto p3
+	p3.correr(); //Llamamos al mÃ©todo correr del objeto p3
 	system("pause");
 	return 0;
 }
